@@ -1,0 +1,92 @@
+.formatation {
+    padding: 4.0625rem 10.3125rem 0 13.75rem;
+
+    form {
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        align-items: center;
+        max-width: 27.8125rem;
+
+        .inpt {
+            border: none;
+            border-radius: 25px;
+        }
+
+        ::placeholder {
+            color: var(--clr-primary-600);
+        }
+
+        .email {
+            padding: 1rem 2rem;
+            border: 1px solid var(--clr-primary-600);
+            background: transparent;
+            width: 100%;
+            outline: none;
+        }
+
+        .error-submit {
+            position: absolute;
+            display: flex;
+            align-items: center;
+
+            .submit {
+                padding: 1rem 2.5rem;
+                background-image: linear-gradient(135deg, var(--clr-linear-600), var(--clr-linear-700));
+                box-shadow: 0 1rem 10px hsl(0, 80%, 86%, .5);
+
+                &:active {
+                    background-image: linear-gradient(135deg, var(--clr-linear-400), var(--clr-linear-600));
+                }
+
+                @media screen and (max-width: 1375px) {
+                    padding: 1rem 1.75rem;
+                }
+            }
+
+            .error-icon {
+                display: none;
+                width: 24px;
+                height: 24px;
+                margin-right: .625rem;
+            }
+        }
+
+        @media screen and (max-width: 1375px) {
+            padding: 0 2rem;
+        }
+    }
+
+    @media screen and (max-width: 1375px) {
+        padding: 0;
+        background-image: linear-gradient(135deg, var(--clr-linear-100), var(--clr-linear-400));
+        height: 100vh;
+    };
+}
+
+.information {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-imgs {
+    position: absolute;
+    background-image: linear-gradient(135deg, var(--clr-linear-100), var(--clr-linear-400));
+    z-index: -1;
+}
+
+@media screen and (max-width: 1357px) {
+    .bg-pattern-desktop {
+        display: none;
+    }
+}
+
+.error-message {
+    font-size: var(--fs-400);
+    padding: .75rem 2rem;
+    color: var(--clr-linear-700);
+
+    @media screen and (max-width: 1375px) {
+        padding: 1rem 4rem;
+    }
+}

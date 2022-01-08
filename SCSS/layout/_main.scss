@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    justify-content: center;
+
+    .hero-mobile {
+        display: none;
+    }
+    
+    @media screen and (max-width: 1375px) {
+
+        .hero-desktop {
+            display: none;
+        }
+
+        .hero-mobile {
+            display: block;
+            margin-bottom: 3rem;
+        }
+    }
+    
+}
