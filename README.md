@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/MatheusFukuyama/CommingSoonMaster](https://github.com/MatheusFukuyama/CommingSoonMaster)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://matheusfukuyama.github.io/CommingSoonMaster/](https://matheusfukuyama.github.io/CommingSoonMaster/)
 
 ## My process
 
